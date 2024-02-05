@@ -29,13 +29,13 @@
   * count : Number of entries to fetch
   * thumbs : Include thumbnails (true/false)
     
-* End point to retrieve date
+* End point to retrieve date   URL : http://localhost:9094/apod?date=2024-01-29
 ![date](https://github.com/tejayenigandla/Spring-NASA-API/assets/122107419/e575de52-eb66-44fd-9697-7c4b077876cc)
 
-*End point to retrieve count
+*End point to retrieve count   URL : http://localhost:9094/apod?count=5
 ![count](https://github.com/tejayenigandla/Spring-NASA-API/assets/122107419/4c03e8cf-2eb7-4f21-bd0c-32c7c7a0ebf3)
 
-*End point to retrieve Start date & End date
+*End point to retrieve Start date & End date  URL : http://localhost:9094/apod?start_date=2024-01-25&end_date=2024-01-29
 ![SD ED](https://github.com/tejayenigandla/Spring-NASA-API/assets/122107419/9d994860-c3cc-4994-996b-3a41b56d8318)
 
 
