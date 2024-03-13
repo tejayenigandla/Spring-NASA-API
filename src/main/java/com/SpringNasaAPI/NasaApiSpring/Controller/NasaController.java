@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +16,10 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import com.SpringNasaAPI.NasaApiSpring.model.*;
 
+import javax.lang.model.util.Elements;
+
 @RestController
+@CrossOrigin(origins = "*",allowedHeaders = "*")
 public class NasaController {
 	@Value("82Ys6piQLKdv5UfpRBuojCvPNdmjUBHCcr44Aaw0")
 	private String apiKey;
